@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloons (Game)</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <!-- Headline -->
+    <h1 class="game-title">🎈 Pop the Balloons 🎈</h1>
+
+    <!-- List of Balloons -->
+    <div class="balloons"></div>
+    
+    <!-- Sound -->
+    <audio id="pop-sound" src="wav/pop.wav"></audio>
+
+    <!-- Buttons -->
+    <div class="ui-panel"></div>
+        <button id='start-btn' class="btn" onclick="onPlayGame()">Start Game</button>
+        <button class="btn" onclick="onRestartGame()">Restart Game</button>
+        <div id="score" class="score-panel">Score : 0</div>
+    </div>
+    
+    <!-- Messages -->
+    <div id="win-msg" class="game-msg">🎊 You Win 🎊</div>
+    <div id="lose-msg" class="game-msg">😢 You Lose 😢</div>
+    
+    <!-- Script -->
+    <script src="js/main.js"></script>
+</body>
+</html>
