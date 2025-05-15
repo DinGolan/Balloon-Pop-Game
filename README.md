@@ -1,5 +1,5 @@
 # 🎈 Balloon Pop Game 🎈
-A simple, fun, and responsive balloon popping game built with vanilla JavaScript, HTML, and CSS.  
+A simple, fun, and responsive balloon popping game built with JavaScript, HTML, and CSS.  
 Click on the balloons before they float away! Each pop increases your score. Miss one ? Game over !
 
 ---
