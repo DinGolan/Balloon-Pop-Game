@@ -18,17 +18,6 @@ You can try the game instantly by opening `index.html` in your browser.
 
 ---
 
- ## 📁 Project Structure 📁
-├── index.html # Main HTML structure
-├── css/
-│ └── main.css # Styling and layout
-├── js/
-│ └── main.js # Game logic and interactivity
-├── wav/
-│ └── pop.wav # Sound effect for balloon pop
-
----
-
 ## 📦 Features 📦
 - Fully responsive game layout.
 - Colorful and randomly styled balloons.
